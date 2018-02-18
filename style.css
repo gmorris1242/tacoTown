@@ -86,3 +86,7 @@ table th {
 table td {
   height: 30px;
 }
+
+.remove {
+  background-color: #E0312C;
+}

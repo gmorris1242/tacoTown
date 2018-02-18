@@ -7,8 +7,8 @@
               <th>Taco</th>
             </tr>
             <tr ng-repeat="order in $ctrl.orderList track by $index">
-              <td>{{ order.name }}</td>
-              <td>{{ order.taco }}</td>
+              <td>{{ order.name | uppercase}}</td>
+              <td>{{ order.taco | uppercase}}</td>
             </tr>
           </table>
         </div>

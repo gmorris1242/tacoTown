@@ -4,7 +4,8 @@
 
     return {
       addOrder: addOrder,
-      getOrders: getOrders
+      getOrders: getOrders,
+      remove: remove
     };
 
     function addOrder(name, taco){
@@ -16,6 +17,10 @@
       return orderList;
 
     };
+
+    function remove(){
+      orderList.pop();
+    }
   }
 
 
