@@ -102,5 +102,9 @@ table td {
 
 button:hover {
   transform: scale(1.05);
-transition: transform 400ms;
+  transition: transform 400ms;
+}
+
+button {
+  transition: transform 400ms;
 }
