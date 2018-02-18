@@ -99,3 +99,8 @@ table td {
   align-items: center;
 
 }
+
+button:hover {
+  transform: scale(1.05);
+transition: transform 400ms;
+}

@@ -7,7 +7,7 @@
               <td>{{ order.drink | uppercase}}</td>
 
     `,
-    controller: function(TacoService){
+    controller: function(){
 
     }
   }
