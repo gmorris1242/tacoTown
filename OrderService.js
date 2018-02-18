@@ -8,9 +8,10 @@
       remove: remove
     };
 
-    function addOrder(name, taco){
-      orderList.push({name: name,taco: taco});
+    function addOrder(name, taco, drink){
+      orderList.push({name: name,taco: taco, drink: drink});
       console.log(orderList)
+
     };
 
     function getOrders(){

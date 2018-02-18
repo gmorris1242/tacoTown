@@ -5,10 +5,12 @@
             <tr>
               <th>Name</th>
               <th>Taco</th>
+              <th>Drink</th>
             </tr>
             <tr ng-repeat="order in $ctrl.orderList track by $index">
               <td>{{ order.name | uppercase}}</td>
               <td>{{ order.taco | uppercase}}</td>
+              <td>{{ order.drink | uppercase}}</td>
             </tr>
           </table>
         </div>

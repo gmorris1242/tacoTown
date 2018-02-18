@@ -90,3 +90,10 @@ table td {
 .remove {
   background-color: #E0312C;
 }
+
+.drinks {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
