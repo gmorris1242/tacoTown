@@ -31,7 +31,6 @@
           TacoService.addOrder(name, taco, drink);
           $ctrl.name = "";
           $ctrl.taco = "";
-          $ctrl.drink = "";
           }
         }
       $ctrl.remove = function(){
