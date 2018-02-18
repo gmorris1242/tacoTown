@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Mayan', serif;
+  font-size: 1.10rem;
+}
+
+@font-face {
+    font-family: "Mayan";
+    src: url(fonts/Mayan.ttf);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 10px;
+}
+
+body {
+  background-image: url("photos/mexico city art.webp");
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.form {
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  margin: 0 auto;
+  width: 35%;
+  background-color: white;
+  margin-top: 10px;
+  min-width: 245px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 30px;
+}
+
+form span, form input, form button, form select {
+  margin: 10px;
+}
+
+input, select {
+  height: 30px;
+}
+
+button {
+  height: 50px;
+  background-color: #00A985;
+  color: white;
+
+}
+
+.list {
+  border: 2px solid black;
+  width: 35%;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 30px;
+  background-color: white;
+  min-width: 245px;
+}
+
+table {
+  width: 100%
+}
+
+table th {
+  background-color: #00A985;
+  color: white;
+  height: 30px;
+}
+
+table td {
+  height: 30px;
+}
